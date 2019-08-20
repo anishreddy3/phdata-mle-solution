@@ -41,5 +41,3 @@ if __name__ == '__main__':
     model_col = joblib.load('model_columns.pkl')
     print('model columns loaded')
     application.run(host = '0.0.0.0',port=port, debug=True)
-#'/home/anish/mle-project-challenge/models/latePaymentsModel.pkl'
-#/home/anish/mle-project-challenge/models/model_columns.pkl
