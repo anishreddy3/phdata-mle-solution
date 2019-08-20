@@ -57,7 +57,7 @@ preprocess = ColumnTransformer(
 # Combine preprocessing with classifier
 latePaymentsModel = make_pipeline(
     preprocess,
-    RandomForestClassifier(random_state = 1, bootstrap = True))
+    RandomForestClassifier(random_state = 1))
 
 # Fit the pipeline to the training data (fit is for both the preprocessing and the classifier)
 print("\nTraining model ...")
