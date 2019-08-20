@@ -1,8 +1,8 @@
-# Deploying a Machine Learning model to predit Late Loan Payers by serving it as a REST API using Docker, FLask and Kubernetes
+# Deploying a Machine Learning model to predit Late Loan Payers by serving it as a REST API using Docker, Flask and Kubernetes
 
 ## Steps
 
-<p>1. Install docker<p>
+<p>1. Install docker, flask and dependencies from the requirements.txt file<p>
 <p>2. Train the classification model and serialize the model using pickle by executing predict-late-payers-updated.py<p>
 <p>3. Run application.py to start the flask server and send POST requests to http://0.0.0.0:9999/ to get back predictions<p>
 <p>4. Create a docker file indicating all the steps needed to get the app running<p>
