@@ -1,4 +1,4 @@
-# Deploying a Machine Learning model to predit Late Loan Payers by serving it as a REST API using Docker, FLask and Kubernetes
+# Deploying a Machine Learning model to predict Late Loan Payers by serving it as a REST API using Docker, FLask and Kubernetes
 
 ## Steps
 
